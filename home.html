@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+
+
+
+
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- nav begin -->
+  <nav id="myNav" class="nav navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="home.html">ladycare</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-4 mt-md-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-3">
+            <a class="nav-link text-white active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="make-up.html">make up</a></li>
+              <li><a class="dropdown-item text-dark" href="female-accessaries.html">accessaries</a></li>
+              <li><a class="dropdown-item text-dark" href="manicure.html">manicure</a></li>
+              <li><a class="dropdown-item text-dark" href="hairs.html">hairs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              page
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="Appointment form.html">Appointment form</a></li>
+              <li><a class="dropdown-item text-dark" href="contact.html">Contact us</a></li>
+              <li><a class="dropdown-item text-dark" href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar end -->
+
+  <!-- landing-page -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner c-item">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img class="img-fluid" src="static/image/make1 (1).jpg" class="d-block w-100"
+          style="object-fit: cover;filter: brightness(0.5); " alt="...">
+        <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          <br><br><br>
+          <p style="font-family: Arial, Helvetica, sans-serif;" class="fw-bold  mt-5 fs-2 text-white">unfold and enjoy
+            your New LOOK .</p>
+          <p class=" mt-5 fs-4 text-white font-family: 'Roboto', sans-serif;"> excellent treatment with <br> friendly
+            advice view <br> our
+            service </p>
+        </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <img class="img-fluid" src="static/image/flower girl.png"
+          style="object-fit: cover; filter: blur(0.5); width: 100%; height: 100vh;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bolder text-capitalize mt-5 fs-4 text-dark">Look good,smell good</h5>
+          <p class="fw-bolder  mt-5 fs-4 text-dark">be yourself</p>
+        </div>
+      </div>
+      <div class="carousel-item  " data-bs-interval="2000">
+        <img src="static/image/long hair.jpg" style="object-fit: cover; filter: brightness(0.5);" class="d-block w-100"
+          alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>BE THE BEST VERSION OF YOUR SELF.</h5>
+          <p style="margin-bottom: 15%;" class="fw-bolder text-capitalize mt-5 fs-2 text-white accordion-body">BE THE
+            BEST VERSION OF YOUR SELF.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- landing page end -->
+  <!-- welcome page begin -->
+
+  <div style="margin-top: 10%;" class="container">
+    <div class="row my-5">
+      <div class="col-md-11">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="./static/image/make up.jpg" alt="">
+          </div>
+          <div class="col-md-6 my-auto">
+            <h3> <span style="color: #fc84b4; font-family: 'Delicious Handrawn', cursive;">Welcome </span> to Ladycare</h3>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+              We value our clients and know exactly what will suit you more and how to implement your most creative
+              ideas into reality to enhance your natural looks and make you look gorgeous whenever you go! Trust us to
+              make you look special!
+            </p>
+            .</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- welcome page end -->
+
+
+  <!-- three boxes begin -->
+  <p style="margin-top: 5%; font-weight: 600; color: #fc84b4;" class="text-center">OUR TREATMENT</p>
+  <h5 style="font-family: Arial, Helvetica, sans-serif; font-weight: 900;" class="text-center">WE OFFER SPECIAL
+    TREATMENT</h5>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mt-5 text-center">
+        <img style="border-radius: 50%;width: 200px;height: 200px;object-fit: cover;" class="img-fluid mx-auto"
+          src="static/image/nails.jpg" alt="">
+        <div class=" p-3">
+          <h5 class="text-center">Nails treatment</h5>
+          <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="card-text text-center">
+            Ladycare offers the best and lasting nails treatment protect your nails
+            from fungai and nails infection.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 text-center">
+        <img class="img-fluid" style="border-radius: 50%;width: 200px;height: 200px;object-fit: cover;"
+          src="static/image/make-up (4).jpg" alt="">
+        <div class="p-3">
+          <h5 class="card-title text-center"> Make up</h5>
+          <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="card-text text-center">Our
+            make-up artists will make your appearance memorable and bright, and
+            take care of your skin's health!
+
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5 text-center">
+        <img style="border-radius: 50%;width: 200px;height: 200px;object-fit: cover;" class="img-fluid"
+          src="static/image/face2.jpg" alt="">
+        <div class="p-3">
+          <h5 class="card-title text-center">facial treatment</h5>
+          <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="card-text text-center">
+            Exfoliation improves the texture of the skin, helps reduce lines and
+            wrinkles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- the three box end -->
+  <!--the service begin  -->
+  <p style=" margin-top: 5%; font-weight:800; color: #fc84b4;" class="text-center ">BOOKING</p>
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="col-md-12 mt-5" style="margin-top: 200px;">
+        <div class="service  text-capitalize text-center text-white pt-5 ">
+          <p><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">book your visit online</span>
+            <br>
+            <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+              class="fw-bolder display-5 fs-1">SAVE UP TO <br> 30% OFF</span> <br>
+            <span>We make a discount only for those our customers who make an appointment, so hurry up to make an <br>
+              appointment with our specialists to save up to 30%!</span>
+          </p>
+          <button class="mt-3" type="button">Make your Appointment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- the service end -->
+
+  <!-- price for service begin -->
+  <div class="container">
+    <div class="row">
+      <h2 class=" text-center my-5"> <span style="color: #fc84b4; "> PRICING</span> <br> SERVICES</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="shadow p-3">
+          <h5>fecial treatment</h5>
+          <p class="fs-4">
+            from <span class="fw-bolder fs-3" style="color: #fc84b4;">$45</span>
+          </p>
+          <ul style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <li>Facial waxing</li>
+            <li>Brazilian waxing</li>
+            <li>Eyebrows trimming</li>
+            <li>Waxing for men</li>
+            <li>Sugaring</li>
+            <li>Full body waxing</li>
+            <button class="mt-2" type="button">Make your Appointment</button>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow p-3">
+          <h5>Nails treatment</h5>
+          <p class="fs-4">
+            from <span class="fw-bolder fs-3" style="color: #fc84b4;">$45</span>
+          </p>
+          <ul style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <li>Facial waxing</li>
+            <li>Brazilian waxing</li>
+            <li>Eyebrows trimming</li>
+            <li>Waxing for men</li>
+            <li>Sugaring</li>
+            <li>Full body waxing</li>
+            <button class="mt-2" type="button">Make your Appointment</button>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="shadow p-3">
+          <h5>hair treatment</h5>
+          <p class="fs-4">
+            from <span class="fw-bolder fs-3" style="color: #fc84b4;">$45</span>
+          </p>
+          <ul style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <li>Facial waxing</li>
+            <li>Brazilian waxing</li>
+            <li>Eyebrows trimming</li>
+            <li>Waxing for men</li>
+            <li>Sugaring</li>
+            <li>Full body waxing</li>
+            <button class="mt-2" type="button">Make your Appointment</button>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- price for service end -->
+  <!-- stylist begin -->
+  <div class="stylist">
+    <div class="col-md-12 mt-5" style="margin-top: 200px;">
+      <div class="text-capitalize text-center text-white pt-5 ">
+        <p><span style="font-family: 'Outfit', sans-serif;">get your stylish </span> <br>
+          <span class="fw-bolder display-5 fs-1">AWARD WINNING</span> <br>
+          <span>HAIR SALON <br> We are always willing to make our customers happy and are ready to support your most
+            bold and creative ideas in <br> haircuts and hair coloring! Feel free to express yourself through your
+            looks!
+          </span>
+        </p>
+        <button class="mt-2" type="button">Make your Appointment</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- stylist end -->
+  <!-- about us -->
+  <div id="about" class="container-fluid my-5 p-5" style="background-color: #f6f7f7 ;">
+    <div class="row">
+      <p style=" font-family: 'Delicious Handrawn', cursive; color: #fc84b4;" class="fs-2">About</p>
+    </div>
+    <div class="row ps-lg-4">
+      <div class="col-3">
+        <h1 class="fw-bolder display-5 fs-1" style="font-weight: 900 !important;">LADYCARE</h1>
+      </div>
+      <div class="col-lg-7 font-family: 'Roboto', sans-serif;">
+        <p style="font-weight: 600; ;">
+          Our beauty salon was founded in 2010, and since then we are trying to make our
+          customers more happy and confident!
+        </p>
+        <p>
+          We started as a group of inspired hairdressers and stylists. Now we have a full-fledged team of
+          specialists, who know what they do and have all the skills to enhance the natural beauty in you! We work with
+          high-quality equipment and use high-quality materials only!
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mt-5" style="margin-top: 200px;">
+          <div class=" p-3 font-family: 'Roboto', sans-serif;">
+            <div class="circle d-flex justify-content-center align-items-center ">
+              <i class="fa fa-scissors text-white" aria-hidden="true" style="font-size: 3em;"></i>
+            </div>
+            <h5 style="height: 40px;" class="text-center fs-3 fw-bolder;"> Hair treatment</h5>
+            <p class="text-center">Ladycare offers the best and lasting nails treatment protect your nails
+              from fungai and nails infection.</p>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <div class="p-3">
+            <div class="circle d-flex justify-content-center align-items-center ">
+              <i class="fa fa-envira text-white" aria-hidden="true" style="font-size: 3em;"></i>
+            </div>
+            <h5 style="height: 30px;" class="text-center fs-3 "> Make up</h5>
+            <p class=" text-center">Our make-up artists will make your appearance memorable and bright, and
+              take care of your skin's health!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <div class="p-3">
+            <div class="circle d-flex justify-content-center align-items-center ">
+              <i class="fa fa-tint text-white" aria-hidden="true" style="font-size: 3em;"></i>
+            </div>
+            <h5 style="height: 20px;" class=" text-center fs-3 ;">Nails treatment</h5>
+            <p class=" text-center">We offer treatment and nails decorationa, You, as our client, will benefit from a
+              team of stylists!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about us end -->
+
+  <div class="container-fluid">
+    <p class="text-center fs-1 ">gallery</p>
+    <div class="row g-0">
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/beauty-salon-img9.jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/beauty-salon-img11.jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/beauty-salon-img10.jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/beauty-salon-img4.jpg" alt="">
+      </div>
+    </div>
+    <div class="row g-0">
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/brush.jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/make-up (2).jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/nails (2).jpg" alt="">
+      </div>
+      <div class="col-md-3">
+        <img class="img-fluid" src="static/image/nails (3).jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- gallery end -->
+
+  <!-- testimonial start -->
+  <div class="container my-5">
+    <h1 class="text-center">Testimonial</h1>
+    <p class="text-center fw-bold fs-4">from our satisfied customers</p>
+    <div class="row g-4">
+      <div class="col-9 mx-auto col-md-6">
+        <div class="p-md-5 d-flex justify-content-center align-items-center"
+          style="background-color: #f6f7f7; height: 200px;">
+          <h5 style="margin-left: 10px;" class="text-center">Really enjoyed your salon. The hairdressers are polite and
+            skilled, provided me with a bit of advice. Well done!
+            Elizabeth – Tuesday, October 17, 2017</h5>
+        </div>
+      </div>
+      <div class="col-9 mx-auto col-md-6">
+        <div class="p-md-5 d-flex justify-content-center align-items-center"
+          style="background-color: #f6f7f7; height: 200px;">
+          <h5 style="margin-left: 10px;" class="text-center">Made my bridal hair there, and I was astonished with the
+            results! The hairdo was gorgeous with plenty of plaits, and I enjoyed the SPA!
+
+            Brittany – Thursday, October, 19, 2017</h5>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 mt-1">
+      <div class="col-9 mx-auto col-md-6">
+        <div class="p-md-4 d-flex justify-content-center align-items-center"
+          style="background-color: #f6f7f7; height: 200px;">
+          <h5 style="margin-left: 10px;" class="text-center">You won't find better than this place, these girls know
+            Bridal Hair! RThey know what will work and what won't and worked absolute wonders on mine!
+
+            Sheila – Saturday, October, 14, 2017</h5>
+        </div>
+      </div>
+      <div class="col-9 mx-auto col-md-6">
+        <div class="p-md-5 d-flex justify-content-center align-items-center"
+          style="background-color: #f6f7f7; height: 200px;">
+          <h5 style="margin-left: 10px;" class="text-center">Blow dry, rollers, extensions, curling, nothing was too
+            much trouble and all was expertly done. An added bonus was that the hairdresser was just lovely, and helped
+            make me feel confident!
+
+            Jennifer – Friday, October, 13, 2017</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- testimonai end -->
+  <!-- contact start -->
+  <div class="container-fluid p-5" style="background-color: #fc84b4; margin-top: 5%;">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor"
+            class="bi bi-geo-alt-fill text-white" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+          </svg>
+          <h5 style="color: white;" class="ms-4 ">Address: <br> No 1.joju bustop ogbahu, plaza beside Gtbank,
+            ota,Ogunstate,Nigeria</h5>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor"
+            class="bi bi-telephone text-white " viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg>
+          <h5 style="color: white;" class="ms-4">Have a Questions? Call us:
+            +23408111818389
+            +23408160501931
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="70" height="30" fill="currentColor"
+            class="bi bi-clock text-white" viewBox="0 0 16 16">
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+          </svg>
+          <h5 style="color: white;" class="ms-4">Working time:
+
+            Monday–Sunday: 10:00–20:00;
+
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contact end -->
+
+
+  <!-- Footer -->
+  <footer style="margin-top: 5%;" class="text-center text-lg-start  text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="footer">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Ladycare
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Service
+            </h6>
+            <p>
+              <a href="./make-up.html" class="text-reset">make-up</a>
+            </p>
+            <p>
+              <a href="./female-accessaries.html" class="text-reset">female-accessaries</a>
+            </p>
+            <p>
+              <a href="./manicure.html" class="text-reset">manicure</a>
+            </p>
+            <p>
+              <a href="./hairs.html" class="text-reset">hairs</a>
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Page
+            </h6>
+            <p>
+              <a href="./Appointment form.html" class="text-reset">Appointment form</a>
+            </p>
+            <p>
+              <a href="./contact.html" class="text-reset">contact</a>
+            </p>
+            <p>
+              <a href="./gallery.html" class="text-reset">gallery</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="./home.html" class="text-reset">Home</a>
+            </p>
+            <p>
+              <a href="./about.html" class="text-reset">about</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <div class="col-12">
+            <h6 class="text-uppercase fw-bold mb-1 text-center">Contact</h6>
+            <p class="text-center">
+              ladycare@gmail.com
+              + 01 234 567 88
+              + 01 234 567 89</p>
+
+          </div>
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+  <script src="./static/js/script.js"></script>
+  <script src="./static/js/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

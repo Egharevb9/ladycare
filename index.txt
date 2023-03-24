@@ -1,0 +1,79 @@
+<!-- price for service end -->
+      
+ 
+      <div style="margin-left: 15%; margin-top: 5%;" class="container">
+        <div class="row">
+          <div class="col-md-3 mt-5" style="margin-top: 200px;">
+           
+          </div>
+          <div class="col-md-3 mt-5">
+            <div class="shadow">
+              <div class="p-3">
+                <p style="height: 220px;" class="card-text text-center">
+                  WAXING  <br>
+                  from $45 <br>
+                  Facial waxing <br>
+                  Brazilian waxing <br>
+                  Eyebrows trimming <br>
+                  Waxing for men <br>
+                  Sugaring <br>
+                  Full body waxing <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-5">
+            <div class="shadow">
+              <div class="p-3">
+                <h5 class="card-title text-center">pricing SERVICES</h5>
+                <p class="card-text text-center">
+                  WAXING  <br>
+                  from $45 <br>
+                  Facial waxing <br>
+                  Brazilian waxing <br>
+                  Eyebrows trimming <br>
+                  Waxing for men <br>
+                  Sugaring <br>
+                  Full body waxing <br>
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="col-md-7">
+         
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 mt-5" style="margin-top: 200px;">
+                  <div class=" p-3">
+                    <h5 style="height: 60px;" class="text-center text-capitalize fs-1 fa fa-scissors" aria-hidden="true"></i><br> <span class="fw-bold fs-5"> Hair treatment</span></h5>
+                    <p class="text-center">Ladycare offers the best and lasting nails treatment protect your nails
+                      from fungai and nails infection.</p>
+                  </div>
+              </div>
+              <div class="col-md-4 mt-5">
+                  <div class="p-3">
+                    <h5 class=" text-center fa fa-eye fs-3" aria-hidden="true"></i> <br><span> Make up</span></h5>
+                    <p class=" text-center">Our make-up artists will make your appearance memorable and bright, and
+                      take care of your skin's health!
+        
+                    </p>
+                  </div>
+              </div>
+              <div class="col-md-4 mt-5">
+                  <div class="p-3">
+                    <h5 style="height: 40px;" class=" text-center fs-3 fa fa-tint" aria-hidden="true"></i>  <br> <span>Nails treatment</span> <br> <span class="fs-6  fs-3"> </span></h5>
+                    <p class=" text-center">We offer  treatment and nails decorationa, You, as our client, will benefit from a team of two personal stylists!</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
